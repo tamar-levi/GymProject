@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 
 namespace DAL.Interface
 {
-    internal interface IUser
+    public interface IUser
     {
-        public void cteatUser(UserDto user);
+        public void creatUser(UserDto user);
         public void deleteUser(string id);
         public List<UserDto> getAllUsers();
         public UserDto getById(string id);

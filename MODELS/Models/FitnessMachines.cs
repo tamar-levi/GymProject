@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace MODELS.Models
 {
-    internal class FitnessMachines
+    public class FitnessMachines
     {
         //id רץ
-        public int id { get; set; }
+        public int Id { get; set; }
         public string name { get; set; }
         public string address { get; set; }
 

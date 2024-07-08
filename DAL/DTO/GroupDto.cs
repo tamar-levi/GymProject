@@ -8,9 +8,9 @@ using MODELS.Models;
 
 namespace DAL.DTO
 {
-    internal class GroupDto
+    public class GroupDto
     {
-        public int idGroup { get; set; }
+        public int Id { get; set; }
         public string name { get; set; }
         public int idGuide { get; set; }
         public typeGroup typeGroup { get; set; }

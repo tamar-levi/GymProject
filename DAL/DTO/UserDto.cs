@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DAL.DTO
 {
-    internal class UserDto
+    public class UserDto
     {
         public int Id { get; set; }
         public string Name { get; set; }

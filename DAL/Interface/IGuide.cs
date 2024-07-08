@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DAL.Interface
 {
-    internal interface IGuide
+    public interface IGuide
     {
 
         public void addGuide(GuidDto guidDto);

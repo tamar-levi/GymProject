@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace DAL.Interface
 {
-    internal interface ISchedules
+    public interface ISchedules
     {
-        public void addSchedules(ScheduleDto schedulleDto);
+        public void addSchedules(ScheduleDto scheduleDto);
         public void removeSchedules(int id);
          public List<ScheduleDto> getAllSchedules();
         public List<ScheduleDto> getSchedules(DateTime date);    

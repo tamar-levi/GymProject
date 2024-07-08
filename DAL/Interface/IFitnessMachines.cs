@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 
 namespace DAL.Interface
 {
-    internal interface IFitnessMachines
+    public interface IFitnessMachines
     {
-        public void addFitnessMachines(FitnesMmachinesDto fitnesMmachinesDto);
-        public void removeFitnessMachines(FitnesMmachinesDto fitnesMmachinesDto);
-        public void updateFitnessMachines(FitnesMmachinesDto fitnesMmachinesDto);
-        public List<FitnesMmachinesDto> getAllFitnesMmachines();
-        public FitnesMmachinesDto getFitnesMmachinesByArea(string area);
+        public bool addFitnessMachines(FitnesMachinesDto fitnessMachinesDto);
+        public void removeFitnessMachines(int id);
+        public void updateFitnessMachines(FitnesMachinesDto fitnessMmachinesDto);
+        public List<FitnesMachinesDto> getAllFitnessMachines();
+        public(string status, FitnesMachinesDto afterMapper) getFitnessMachinesByArea(string address);
 
 
     }

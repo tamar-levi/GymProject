@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DAL.Interface
 {
-    internal interface IGroup
+    public interface IGroup
     {
         public void addGroup(GroupDto groupDto);
         public void removeGroup(int id);
