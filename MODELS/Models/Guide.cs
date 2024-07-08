@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace MODELS.Models
 {
-    internal class Guide
+    public class Guide
     {
-        public string id { get; set; }
+        public string Id { get; set; }
         public string name { get; set; }
         public string mail { get; set; }
 

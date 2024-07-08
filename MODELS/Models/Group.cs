@@ -7,10 +7,11 @@ using System.Threading.Tasks;
 namespace MODELS.Models
 {
     public enum typeGroup { Gymnastics, postpartumGymnastics, aerobics, hipHop, pilates, floorGymnastics }
-    internal class Group
+    public class Group
     {
         //ID רץ
-        public int idGroup { get; set; }
+        
+        public int Id { get; set; }
         public string name { get; set; }
         public Guide guidName { get; set; }
         public typeGroup typeGroup { get; set; }
