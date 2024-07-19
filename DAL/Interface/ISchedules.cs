@@ -9,10 +9,10 @@ namespace DAL.Interface
 {
     public interface ISchedules
     {
-        public void addSchedules(ScheduleDto scheduleDto);
+        public bool addSchedules(ScheduleDto scheduleDto);
         public void removeSchedules(int id);
          public List<ScheduleDto> getAllSchedules();
-        public List<ScheduleDto> getSchedules(DateTime date);    
+        public (string status, ScheduleDto afterMapper) getSchedulesByDate(DateTime date);    
              
 
         

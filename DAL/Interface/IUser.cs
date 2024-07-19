@@ -10,10 +10,10 @@ namespace DAL.Interface
 {
     public interface IUser
     {
-        public void creatUser(UserDto user);
-        public void deleteUser(string id);
+        public bool createUser(UserDto user);
+        public void deleteUser(int id);
         public List<UserDto> getAllUsers();
-        public UserDto getById(string id);
+        public (string status, UserDto afterMapper) getById(int id);
 
 
            

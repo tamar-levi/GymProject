@@ -10,10 +10,10 @@ namespace DAL.Interface
     public interface IGuide
     {
 
-        public void addGuide(GuidDto guidDto);
-        public void removeGguide(string id);
+        public bool addGuide(GuidDto guideDto);
+        public void removeGuide(int id);
         public List<GuidDto> getAllGuides();
-        public List<GuidDto> getGuidesByName(string name);
+        public (string status, GuidDto afterMapper) getGuidesByName(string name);
 
 
     }

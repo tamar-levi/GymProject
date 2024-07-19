@@ -9,7 +9,7 @@ namespace MODELS.Models
 {
     public class Guide
     {
-        public string Id { get; set; }
+        public int Id { get; set; }
         public string name { get; set; }
         public string mail { get; set; }
 
