@@ -1,0 +1,751 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\GymProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9F836D3A-F0FE-4FCC-8CB8-889E72216335}|..\\MODELS\\MODELS.csproj|c:\\users\\pc\\downloads\\jm_ht9un7zzokqzdsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\models\\models\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BFC7B4A-6424-4E65-805C-734CC1C081F6}|..\\DAL\\DAL.csproj|c:\\users\\pc\\downloads\\jm_ht9un7zzokqzdsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\dal\\data\\guiddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2FE3825-1780-40D6-9865-64C681DB733C}|GymProject.csproj|c:\\users\\pc\\downloads\\jm_ht9un7zzokqzdsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\gymproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2FE3825-1780-40D6-9865-64C681DB733C}|GymProject.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2FE3825-1780-40D6-9865-64C681DB733C}|GymProject.csproj|c:\\users\\pc\\downloads\\jm_ht9un7zzokqzdsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\gymproject\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2FE3825-1780-40D6-9865-64C681DB733C}|GymProject.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2FE3825-1780-40D6-9865-64C681DB733C}|GymProject.csproj|c:\\users\\pc\\downloads\\jm_ht9un7zzokqzdsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\gymproject\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2FE3825-1780-40D6-9865-64C681DB733C}|GymProject.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2FE3825-1780-40D6-9865-64C681DB733C}|GymProject.csproj|c:\\users\\pc\\downloads\\jm_ht9un7zzokqzdsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\gymproject\\controllers\\guidecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2FE3825-1780-40D6-9865-64C681DB733C}|GymProject.csproj|solutionrelative:controllers\\guidecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2FE3825-1780-40D6-9865-64C681DB733C}|GymProject.csproj|c:\\users\\pc\\downloads\\jm_ht9un7zzokqzdsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\gymproject\\gymproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{D2FE3825-1780-40D6-9865-64C681DB733C}|GymProject.csproj|solutionrelative:gymproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BFC7B4A-6424-4E65-805C-734CC1C081F6}|..\\DAL\\DAL.csproj|c:\\users\\pc\\downloads\\jm_ht9un7zzokqzdsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\dal\\interface\\iuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BFC7B4A-6424-4E65-805C-734CC1C081F6}|..\\DAL\\DAL.csproj|c:\\users\\pc\\downloads\\jm_ht9un7zzokqzdsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\dal\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BFC7B4A-6424-4E65-805C-734CC1C081F6}|..\\DAL\\DAL.csproj|c:\\users\\pc\\downloads\\jm_ht9un7zzokqzdsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\dal\\data\\usersdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\MODELS\\Migrations\\20240719150505_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2FE3825-1780-40D6-9865-64C681DB733C}|GymProject.csproj|c:\\users\\pc\\downloads\\jm_ht9un7zzokqzdsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\gymproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D2FE3825-1780-40D6-9865-64C681DB733C}|GymProject.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\MODELS\\Migrations\\20240719145908_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F836D3A-F0FE-4FCC-8CB8-889E72216335}|..\\MODELS\\MODELS.csproj|c:\\users\\pc\\downloads\\jm_ht9un7zzokqzdsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\models\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2FE3825-1780-40D6-9865-64C681DB733C}|GymProject.csproj|c:\\users\\pc\\downloads\\jm_ht9un7zzokqzdsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\gymproject\\controllers\\schedulescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2FE3825-1780-40D6-9865-64C681DB733C}|GymProject.csproj|solutionrelative:controllers\\schedulescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2FE3825-1780-40D6-9865-64C681DB733C}|GymProject.csproj|c:\\users\\pc\\downloads\\jm_ht9un7zzokqzdsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\gymproject\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2FE3825-1780-40D6-9865-64C681DB733C}|GymProject.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2FE3825-1780-40D6-9865-64C681DB733C}|GymProject.csproj|c:\\users\\pc\\downloads\\jm_ht9un7zzokqzdsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\gymproject\\controllers\\groupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2FE3825-1780-40D6-9865-64C681DB733C}|GymProject.csproj|solutionrelative:controllers\\groupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2FE3825-1780-40D6-9865-64C681DB733C}|GymProject.csproj|c:\\users\\pc\\downloads\\jm_ht9un7zzokqzdsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\gymproject\\controllers\\fitnessmachinescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2FE3825-1780-40D6-9865-64C681DB733C}|GymProject.csproj|solutionrelative:controllers\\fitnessmachinescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F836D3A-F0FE-4FCC-8CB8-889E72216335}|..\\MODELS\\MODELS.csproj|c:\\users\\pc\\downloads\\jm_ht9un7zzokqzdsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\models\\models.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:1:0:{2BFC7B4A-6424-4E65-805C-734CC1C081F6}|..\\DAL\\DAL.csproj|c:\\users\\pc\\downloads\\jm_ht9un7zzokqzdsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\dal\\dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F6AC1EB-44AE-4415-896E-D7D50F1C242A}|..\\BL\\BL.csproj|c:\\users\\pc\\downloads\\jm_ht9un7zzokqzdsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\bl\\bl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F6AC1EB-44AE-4415-896E-D7D50F1C242A}|..\\BL\\BL.csproj|c:\\users\\pc\\downloads\\jm_ht9un7zzokqzdsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\bl\\namevalidationmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BFC7B4A-6424-4E65-805C-734CC1C081F6}|..\\DAL\\DAL.csproj|c:\\users\\pc\\downloads\\jm_ht9un7zzokqzdsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\dal\\dto\\groupdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F836D3A-F0FE-4FCC-8CB8-889E72216335}|..\\MODELS\\MODELS.csproj|c:\\users\\pc\\downloads\\jm_ht9un7zzokqzdsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\models\\models\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BFC7B4A-6424-4E65-805C-734CC1C081F6}|..\\DAL\\DAL.csproj|c:\\users\\pc\\downloads\\jm_ht9un7zzokqzdsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\dal\\data\\groupdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BFC7B4A-6424-4E65-805C-734CC1C081F6}|..\\DAL\\DAL.csproj|c:\\users\\pc\\downloads\\jm_ht9un7zzokqzdsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\dal\\dto\\fitnesmachinesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BFC7B4A-6424-4E65-805C-734CC1C081F6}|..\\DAL\\DAL.csproj|c:\\users\\pc\\downloads\\jm_ht9un7zzokqzdsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\dal\\dto\\guiddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BFC7B4A-6424-4E65-805C-734CC1C081F6}|..\\DAL\\DAL.csproj|c:\\users\\pc\\downloads\\jm_ht9un7zzokqzdsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\dal\\dto\\scheduledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F836D3A-F0FE-4FCC-8CB8-889E72216335}|..\\MODELS\\MODELS.csproj|c:\\users\\pc\\downloads\\jm_ht9un7zzokqzdsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\models\\models\\guide.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F836D3A-F0FE-4FCC-8CB8-889E72216335}|..\\MODELS\\MODELS.csproj|c:\\users\\pc\\downloads\\jm_ht9un7zzokqzdsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\models\\models\\schedules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F836D3A-F0FE-4FCC-8CB8-889E72216335}|..\\MODELS\\MODELS.csproj|c:\\users\\pc\\downloads\\jm_ht9un7zzokqzdsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\models\\models\\fitnessmachines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BFC7B4A-6424-4E65-805C-734CC1C081F6}|..\\DAL\\DAL.csproj|c:\\users\\pc\\downloads\\jm_ht9un7zzokqzdsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\dal\\data\\schedulesdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F6AC1EB-44AE-4415-896E-D7D50F1C242A}|..\\BL\\BL.csproj|c:\\users\\pc\\downloads\\jm_ht9un7zzokqzdsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\bl\\managervalidationmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BFC7B4A-6424-4E65-805C-734CC1C081F6}|..\\DAL\\DAL.csproj|c:\\users\\pc\\downloads\\jm_ht9un7zzokqzdsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\dal\\data\\fitnessmachinesdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F6AC1EB-44AE-4415-896E-D7D50F1C242A}|..\\BL\\BL.csproj|c:\\users\\pc\\downloads\\jm_ht9un7zzokqzdsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\bl\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BFC7B4A-6424-4E65-805C-734CC1C081F6}|..\\DAL\\DAL.csproj|c:\\users\\pc\\downloads\\jm_ht9un7zzokqzdsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\dal\\interface\\igroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BFC7B4A-6424-4E65-805C-734CC1C081F6}|..\\DAL\\DAL.csproj|c:\\users\\pc\\downloads\\jm_ht9un7zzokqzdsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\dal\\interface\\ifitnessmachines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BFC7B4A-6424-4E65-805C-734CC1C081F6}|..\\DAL\\DAL.csproj|c:\\users\\pc\\downloads\\jm_ht9un7zzokqzdsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\dal\\interface\\iguide.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BFC7B4A-6424-4E65-805C-734CC1C081F6}|..\\DAL\\DAL.csproj|c:\\users\\pc\\downloads\\jm_ht9un7zzokqzdsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\dal\\profiles\\ifitnessmachinesprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BFC7B4A-6424-4E65-805C-734CC1C081F6}|..\\DAL\\DAL.csproj|c:\\users\\pc\\downloads\\jm_ht9un7zzokqzdsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\dal\\interface\\ischedules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2FE3825-1780-40D6-9865-64C681DB733C}|GymProject.csproj|c:\\users\\pc\\downloads\\jm_ht9un7zzokqzdsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\gymproject\\gymproject.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}",
+      "RelativeMoniker": "D:0:0:{D2FE3825-1780-40D6-9865-64C681DB733C}|GymProject.csproj|solutionrelative:gymproject.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2FE3825-1780-40D6-9865-64C681DB733C}|GymProject.csproj|c:\\users\\pc\\downloads\\jm_ht9un7zzokqzdsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\gymproject\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2FE3825-1780-40D6-9865-64C681DB733C}|GymProject.csproj|solutionrelative:weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BFC7B4A-6424-4E65-805C-734CC1C081F6}|..\\DAL\\DAL.csproj|c:\\users\\pc\\downloads\\jm_ht9un7zzokqzdsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F836D3A-F0FE-4FCC-8CB8-889E72216335}|..\\MODELS\\MODELS.csproj|c:\\users\\pc\\downloads\\jm_ht9un7zzokqzdsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\models\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:2:0:{2BFC7B4A-6424-4E65-805C-734CC1C081F6}|..\\DAL\\DAL.csproj|c:\\users\\pc\\downloads\\jm_ht9un7zzokqzdsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\dal\\dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\GymProject\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\GymProject\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Controllers\\LoginController.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAhwBIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T19:04:02.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\GymProject\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\GymProject\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAawBsAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T06:44:04.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GuideController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\GymProject\\Controllers\\GuideController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GuideController.cs",
+              "ToolTip": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\GymProject\\Controllers\\GuideController.cs",
+              "RelativeToolTip": "Controllers\\GuideController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T06:44:04.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\GymProject\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\GymProject\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAACEAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T06:44:04.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GuidData.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\DAL\\Data\\GuidData.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\Data\\GuidData.cs",
+              "ToolTip": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\DAL\\Data\\GuidData.cs",
+              "RelativeToolTip": "..\\DAL\\Data\\GuidData.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAApwBAAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T06:44:04.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Context.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\MODELS\\Models\\Context.cs",
+              "RelativeDocumentMoniker": "..\\MODELS\\Models\\Context.cs",
+              "ToolTip": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\MODELS\\Models\\Context.cs",
+              "RelativeToolTip": "..\\MODELS\\Models\\Context.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAA1wCoAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T06:44:04.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GymProject.csproj",
+              "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\GymProject\\GymProject.csproj",
+              "RelativeDocumentMoniker": "GymProject.csproj",
+              "ToolTip": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\GymProject\\GymProject.csproj",
+              "RelativeToolTip": "GymProject.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-16T06:44:05.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IUser.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\DAL\\Interface\\IUser.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\Interface\\IUser.cs",
+              "ToolTip": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\DAL\\Interface\\IUser.cs",
+              "RelativeToolTip": "..\\DAL\\Interface\\IUser.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAqwA8AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T06:44:04.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\DAL\\DTO\\UserDto.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\DTO\\UserDto.cs",
+              "ToolTip": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\DAL\\DTO\\UserDto.cs",
+              "RelativeToolTip": "..\\DAL\\DTO\\UserDto.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwA4AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T06:44:05.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UsersData.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\DAL\\Data\\UsersData.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\Data\\UsersData.cs",
+              "ToolTip": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\DAL\\Data\\UsersData.cs",
+              "RelativeToolTip": "..\\DAL\\Data\\UsersData.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAkwDsAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T06:44:04.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20240719150505_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\MODELS\\Migrations\\20240719150505_InitialCreate.cs",
+              "RelativeDocumentMoniker": "..\\MODELS\\Migrations\\20240719150505_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\MODELS\\Migrations\\20240719150505_InitialCreate.cs",
+              "RelativeToolTip": "..\\MODELS\\Migrations\\20240719150505_InitialCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T15:05:06.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20240719145908_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\MODELS\\Migrations\\20240719145908_InitialCreate.cs",
+              "RelativeDocumentMoniker": "..\\MODELS\\Migrations\\20240719145908_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\MODELS\\Migrations\\20240719145908_InitialCreate.cs",
+              "RelativeToolTip": "..\\MODELS\\Migrations\\20240719145908_InitialCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T14:59:08.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SchedulesController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\GymProject\\Controllers\\SchedulesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SchedulesController.cs",
+              "ToolTip": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\GymProject\\Controllers\\SchedulesController.cs",
+              "RelativeToolTip": "Controllers\\SchedulesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T06:44:04.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\GymProject\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\GymProject\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwBcAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T06:44:05.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\GymProject\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\GymProject\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-16T06:44:05.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\MODELS\\Models\\User.cs",
+              "RelativeDocumentMoniker": "..\\MODELS\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\MODELS\\Models\\User.cs",
+              "RelativeToolTip": "..\\MODELS\\Models\\User.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwAwAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T06:44:05.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GroupController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\GymProject\\Controllers\\GroupController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GroupController.cs",
+              "ToolTip": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\GymProject\\Controllers\\GroupController.cs",
+              "RelativeToolTip": "Controllers\\GroupController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T06:44:05.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "FitnessMachinesController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\GymProject\\Controllers\\FitnessMachinesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FitnessMachinesController.cs",
+              "ToolTip": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\GymProject\\Controllers\\FitnessMachinesController.cs",
+              "RelativeToolTip": "Controllers\\FitnessMachinesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T06:44:04.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MODELS",
+              "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\MODELS\\MODELS.csproj",
+              "RelativeDocumentMoniker": "..\\MODELS\\MODELS.csproj",
+              "ToolTip": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\MODELS\\MODELS.csproj",
+              "RelativeToolTip": "..\\MODELS\\MODELS.csproj",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-18T20:50:47.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DAL.csproj",
+              "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\DAL\\DAL.csproj",
+              "RelativeDocumentMoniker": "..\\DAL\\DAL.csproj",
+              "ToolTip": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\DAL\\DAL.csproj",
+              "RelativeToolTip": "..\\DAL\\DAL.csproj",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-16T06:44:05.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "BL.csproj",
+              "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\BL\\BL.csproj",
+              "RelativeDocumentMoniker": "..\\BL\\BL.csproj",
+              "ToolTip": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\BL\\BL.csproj",
+              "RelativeToolTip": "..\\BL\\BL.csproj",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAkwCQAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-16T06:44:05.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "NameValidationMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\BL\\NameValidationMiddleware.cs",
+              "RelativeDocumentMoniker": "..\\BL\\NameValidationMiddleware.cs",
+              "ToolTip": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\BL\\NameValidationMiddleware.cs",
+              "RelativeToolTip": "..\\BL\\NameValidationMiddleware.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAADwv0AAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T19:29:33.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "GroupDto.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\DAL\\DTO\\GroupDto.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\DTO\\GroupDto.cs",
+              "ToolTip": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\DAL\\DTO\\GroupDto.cs",
+              "RelativeToolTip": "..\\DAL\\DTO\\GroupDto.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAA+wBIAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T06:44:05.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Group.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\MODELS\\Models\\Group.cs",
+              "RelativeDocumentMoniker": "..\\MODELS\\Models\\Group.cs",
+              "ToolTip": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\MODELS\\Models\\Group.cs",
+              "RelativeToolTip": "..\\MODELS\\Models\\Group.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwA8AAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T18:23:02.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "GroupData.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\DAL\\Data\\GroupData.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\Data\\GroupData.cs",
+              "ToolTip": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\DAL\\Data\\GroupData.cs",
+              "RelativeToolTip": "..\\DAL\\Data\\GroupData.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAzwB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T06:44:05.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "FitnesMachinesDto.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\DAL\\DTO\\FitnesMachinesDto.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\DTO\\FitnesMachinesDto.cs",
+              "ToolTip": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\DAL\\DTO\\FitnesMachinesDto.cs",
+              "RelativeToolTip": "..\\DAL\\DTO\\FitnesMachinesDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T06:44:05.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "GuidDto.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\DAL\\DTO\\GuidDto.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\DTO\\GuidDto.cs",
+              "ToolTip": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\DAL\\DTO\\GuidDto.cs",
+              "RelativeToolTip": "..\\DAL\\DTO\\GuidDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T06:44:05.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ScheduleDto.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\DAL\\DTO\\ScheduleDto.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\DTO\\ScheduleDto.cs",
+              "ToolTip": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\DAL\\DTO\\ScheduleDto.cs",
+              "RelativeToolTip": "..\\DAL\\DTO\\ScheduleDto.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAuwAoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T06:44:05.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Guide.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\MODELS\\Models\\Guide.cs",
+              "RelativeDocumentMoniker": "..\\MODELS\\Models\\Guide.cs",
+              "ToolTip": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\MODELS\\Models\\Guide.cs",
+              "RelativeToolTip": "..\\MODELS\\Models\\Guide.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T06:44:05.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Schedules.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\MODELS\\Models\\Schedules.cs",
+              "RelativeDocumentMoniker": "..\\MODELS\\Models\\Schedules.cs",
+              "ToolTip": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\MODELS\\Models\\Schedules.cs",
+              "RelativeToolTip": "..\\MODELS\\Models\\Schedules.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwA0AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T06:44:05.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "FitnessMachines.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\MODELS\\Models\\FitnessMachines.cs",
+              "RelativeDocumentMoniker": "..\\MODELS\\Models\\FitnessMachines.cs",
+              "ToolTip": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\MODELS\\Models\\FitnessMachines.cs",
+              "RelativeToolTip": "..\\MODELS\\Models\\FitnessMachines.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwA4AAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T21:56:17.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "SchedulesData.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\DAL\\Data\\SchedulesData.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\Data\\SchedulesData.cs",
+              "ToolTip": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\DAL\\Data\\SchedulesData.cs",
+              "RelativeToolTip": "..\\DAL\\Data\\SchedulesData.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T06:44:04.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ManagerValidationMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\BL\\ManagerValidationMiddleware.cs",
+              "RelativeDocumentMoniker": "..\\BL\\ManagerValidationMiddleware.cs",
+              "ToolTip": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\BL\\ManagerValidationMiddleware.cs",
+              "RelativeToolTip": "..\\BL\\ManagerValidationMiddleware.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAswBYAAABdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T22:03:09.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\BL\\Class1.cs",
+              "RelativeDocumentMoniker": "..\\BL\\Class1.cs",
+              "ToolTip": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\BL\\Class1.cs",
+              "RelativeToolTip": "..\\BL\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T06:44:05.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "FitnessMachinesData.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\DAL\\Data\\FitnessMachinesData.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\Data\\FitnessMachinesData.cs",
+              "ToolTip": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\DAL\\Data\\FitnessMachinesData.cs",
+              "RelativeToolTip": "..\\DAL\\Data\\FitnessMachinesData.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAowCcAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T06:44:05.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "IGroup.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\DAL\\Interface\\IGroup.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\Interface\\IGroup.cs",
+              "ToolTip": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\DAL\\Interface\\IGroup.cs",
+              "RelativeToolTip": "..\\DAL\\Interface\\IGroup.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAvwAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T06:44:05.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "IFitnessMachines.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\DAL\\Interface\\IFitnessMachines.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\Interface\\IFitnessMachines.cs",
+              "ToolTip": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\DAL\\Interface\\IFitnessMachines.cs",
+              "RelativeToolTip": "..\\DAL\\Interface\\IFitnessMachines.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAIwA0AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T06:44:05.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "IGuide.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\DAL\\Interface\\IGuide.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\Interface\\IGuide.cs",
+              "ToolTip": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\DAL\\Interface\\IGuide.cs",
+              "RelativeToolTip": "..\\DAL\\Interface\\IGuide.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAgwAwAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T06:44:05.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "IFitnessMachinesProfiles.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\DAL\\Profiles\\IFitnessMachinesProfiles.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\Profiles\\IFitnessMachinesProfiles.cs",
+              "ToolTip": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\DAL\\Profiles\\IFitnessMachinesProfiles.cs",
+              "RelativeToolTip": "..\\DAL\\Profiles\\IFitnessMachinesProfiles.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAMwBQAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T06:44:04.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ISchedules.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\DAL\\Interface\\ISchedules.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\Interface\\ISchedules.cs",
+              "ToolTip": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\DAL\\Interface\\ISchedules.cs",
+              "RelativeToolTip": "..\\DAL\\Interface\\ISchedules.cs",
+              "ViewState": "AQIAAAQAAACAZmZmZmYEwA4AAABeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T06:44:05.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "GymProject",
+              "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\GymProject\\GymProject.csproj",
+              "RelativeDocumentMoniker": "GymProject.csproj",
+              "ToolTip": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\GymProject\\GymProject.csproj",
+              "RelativeToolTip": "GymProject.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-16T06:44:05.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\GymProject\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\GymProject\\WeatherForecast.cs",
+              "RelativeToolTip": "WeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T06:44:05.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\DAL\\Class1.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\Class1.cs",
+              "ToolTip": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\DAL\\Class1.cs",
+              "RelativeToolTip": "..\\DAL\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T06:44:05.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "DAL.csproj",
+              "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\DAL\\DAL.csproj",
+              "RelativeDocumentMoniker": "..\\DAL\\DAL.csproj",
+              "ToolTip": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\DAL\\DAL.csproj",
+              "RelativeToolTip": "..\\DAL\\DAL.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-16T06:44:05.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\MODELS\\Class1.cs",
+              "RelativeDocumentMoniker": "..\\MODELS\\Class1.cs",
+              "ToolTip": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\MODELS\\Class1.cs",
+              "RelativeToolTip": "..\\MODELS\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T06:44:05.18Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
