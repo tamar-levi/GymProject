@@ -13,7 +13,7 @@ namespace DAL.Interface
         public bool createUser(UserDto user);
         public void deleteUser(int id);
         public List<UserDto> getAllUsers();
-        public (string status, UserDto afterMapper) getById(int id);
+        public (string status, UserDto afterMapper) getByMail(string mail);
 
 
            

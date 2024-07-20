@@ -49,10 +49,10 @@ namespace DAL.Data
             return myUserDto;
         }
 
-        public (string status, UserDto afterMapper) getById(int id)
+        public (string status, UserDto afterMapper) getByMail(string mail)
         {
-            var idFind = _context.Users.FirstOrDefault(b =>b.Id==id);
-            var afterMapper = _mapper.Map<UserDto>(idFind);
+            var mailFind = _context.Users.FirstOrDefault(b =>b.mail==mail);
+            var afterMapper = _mapper.Map<UserDto>(mailFind);
             if (afterMapper == null)
             {
                 return ("Not Found", null);

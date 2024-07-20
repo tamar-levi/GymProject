@@ -12,5 +12,6 @@ namespace DAL.DTO
         public string Name { get; set; }
         public string mail { get; set; }
         public string address { get; set; }
+        public string password { get; set; }
     }
 }
