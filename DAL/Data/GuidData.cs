@@ -1,8 +1,12 @@
-﻿using DAL.DTO;
+﻿using AutoMapper;
+using DAL.DTO;
 using DAL.Interface;
+using Microsoft.EntityFrameworkCore;
+using MODELS.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -10,24 +14,50 @@ namespace DAL.Data
 {
     public class GuidData : IGuide
     {
-        public void addGuide(GuidDto guidDto)
+        private readonly Context _context;
+        private readonly IMapper _mapper;
+        public GuidData(Context context, IMapper mapper)
         {
-            throw new NotImplementedException();
+            _context = context;
+            _mapper = mapper;
+        }
+        public bool addGuide(GuidDto guidDto)
+        {
+            Guid myGuide = _mapper.Map<Guid>(guidDto);
+            _context.Guides.Add(myGuide);
+            var isOk = _context.SaveChanges() >= 0;
+            return isOk;
         }
 
         public List<GuidDto> getAllGuides()
         {
-            throw new NotImplementedException();
+            var myGuides = _context.Guides.ToList();
+            var myGuideDto = _mapper.Map<List<GuidDto>>(myGuides);
+            return myGuideDto;
         }
 
-        public List<GuidDto> getGuidesByName(string name)
+        public (string status, GuidDto afterMapper) getGuidesByName(string name)
         {
-            throw new NotImplementedException();
+            var FindName = _context.Guides.FirstOrDefault(b => b.name==name);
+            var afterMapper = _mapper.Map<GuidDto>(FindName);
+            if (afterMapper == null)
+            {
+                return ("Not Found", null);
+            }
+            return ("Found", afterMapper);
         }
 
-        public void removeGguide(string id)
+        public void removeGuide(int id)
         {
-            throw new NotImplementedException();
+            var guide = _context.Guides.Find(id);
+            if (guide == null)
+            {
+                throw new NotImplementedException();
+                //return ("Not Found", $"Fitness machine with ID {id} not found.");
+            }
+
+            _context.Guides.Remove(guide);
+            _context.SaveChanges();
         }
     }
 }

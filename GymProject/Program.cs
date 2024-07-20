@@ -31,7 +31,11 @@ namespace GymProject
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultDataBase")));
             // builder.Services.AddDbContext<BooksContext>(op => op.UseSqlServer("Data Source=DESKTOP-UE6H0IP;Initial Catalog=Books;Integrated Security=SSPI;Trusted_Connection=True;"));
             builder.Services.AddScoped<IFitnessMachines, FitnessMachinesData>();
-           builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+            builder.Services.AddScoped<IGroup, GroupData>();
+            builder.Services.AddScoped<IGuide, GuidData>();
+            builder.Services.AddScoped<ISchedules, SchedulesData>();
+            builder.Services.AddScoped<IUser, UsersData>();
+            builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             var app = builder.Build();
 
 

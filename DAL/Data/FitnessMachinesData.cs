@@ -17,11 +17,13 @@ namespace DAL.Data
 
         private readonly Context _context;
         private readonly IMapper _mapper;
+        //אתחול ההזרקה
         public FitnessMachinesData(Context context, IMapper mapper)
         {
             _context = context;
             _mapper = mapper;
         }
+        //הוספת חדר כושר
         public bool addFitnessMachines(FitnesMachinesDto fitnessMachines)
         {
             var myFitnessMachines = _mapper.Map<FitnessMachines>(fitnessMachines);
@@ -31,7 +33,7 @@ namespace DAL.Data
             return isOk;
         }
 
-
+        //מחזירה את כל רשימת המכונות כושר
         public List<FitnesMachinesDto> getAllFitnessMachines()
         {
             var myFitnessMachines = _context.FitnessMachines.ToList();
@@ -39,6 +41,7 @@ namespace DAL.Data
             return myFitnessMachineDto;
         }
 
+        //מחזירה את רשימת המכונות לפי אזור
         public (string status, FitnesMachinesDto afterMapper) getFitnessMachinesByArea(string address)
         {
 
@@ -51,7 +54,7 @@ namespace DAL.Data
             return ("Found", afterMapper);
         }
 
-
+        //מוחק מכון כושר לפי id
         public void removeFitnessMachines(int id)
         {
             var machine = _context.FitnessMachines.Find(id);
@@ -66,7 +69,7 @@ namespace DAL.Data
             // return ("Success", $"Fitness machine with ID {id} was deleted successfully.");
         }
 
-
+        //עידכון מכון כושר
         public void updateFitnessMachines(FitnesMachinesDto fitnessMachinesDto)
         {
             var machine = _context.FitnessMachines.Find(fitnessMachinesDto.Id);
