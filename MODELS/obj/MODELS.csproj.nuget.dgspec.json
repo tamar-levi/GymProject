@@ -1,25 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\1\\Desktop\\פרויקט כושר\\MODELS\\MODELS.csproj": {}
+    "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\פרויקט כושר\\MODELS\\MODELS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\1\\Desktop\\פרויקט כושר\\MODELS\\MODELS.csproj": {
+    "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\פרויקט כושר\\MODELS\\MODELS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\1\\Desktop\\פרויקט כושר\\MODELS\\MODELS.csproj",
+        "projectUniqueName": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\פרויקט כושר\\MODELS\\MODELS.csproj",
         "projectName": "MODELS",
-        "projectPath": "C:\\Users\\1\\Desktop\\פרויקט כושר\\MODELS\\MODELS.csproj",
-        "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\1\\Desktop\\פרויקט כושר\\MODELS\\obj\\",
+        "projectPath": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\פרויקט כושר\\MODELS\\MODELS.csproj",
+        "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\פרויקט כושר\\MODELS\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\1\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -27,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -40,6 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -49,6 +48,22 @@
             "AutoMapper": {
               "target": "Package",
               "version": "[13.0.1, )"
+            },
+            "JWT": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -107,7 +122,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
