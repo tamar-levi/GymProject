@@ -11,7 +11,7 @@ namespace DAL.Interface
     {
         public bool addFitnessMachines(FitnesMachinesDto fitnessMachinesDto);
         public void removeFitnessMachines(int id);
-        public void updateFitnessMachines(FitnesMachinesDto fitnessMmachinesDto);
+        public bool updateFitnessMachines(FitnesMachinesDto fitnessMmachinesDto);
         public List<FitnesMachinesDto> getAllFitnessMachines();
         public(string status, FitnesMachinesDto afterMapper) getFitnessMachinesByArea(string address);
 

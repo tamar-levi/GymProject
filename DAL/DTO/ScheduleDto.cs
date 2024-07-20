@@ -10,9 +10,9 @@ namespace DAL.DTO
     {
         public int Id { get; set; }
         //prymari key
-      
 
 
+        public int idGroup { get; set; }
 
         public int year { get; set; }
         public int month { get; set; }
