@@ -31,6 +31,8 @@ namespace MODELS.Models
         public virtual DbSet<Guide> Guides { get; set; }
         public virtual DbSet<Schedules> Schedules { get; set; }
         public virtual DbSet<User> Users { get; set; }
+        public virtual DbSet<Manager> Managers { get; set; }
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
@@ -39,8 +41,16 @@ namespace MODELS.Models
                     b => b.MigrationsAssembly("MODELS"));
             }
         }
+        //to define uniq mail every user
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
 
-        //
+            modelBuilder.Entity<User>()
+                .HasIndex(u => u.mail)
+                .IsUnique();
+        }
+
     }
 
    

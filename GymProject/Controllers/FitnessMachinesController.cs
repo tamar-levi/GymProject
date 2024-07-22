@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace GymProject.Controllers
 {
-    [Authorize]
+    [Authorize(Roles = "Admin")]
     [Route("api/[controller]")]
     [ApiController]
     public class FitnessMachinesController : Controller

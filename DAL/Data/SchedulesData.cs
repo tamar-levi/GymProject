@@ -59,5 +59,26 @@ namespace DAL.Data
             _context.Schedules.Remove(schedules);
             _context.SaveChanges();
         }
+
+        public bool updateSchedule(ScheduleDto schedule)
+        {
+
+            var scheduleFind = _context.Schedules.Find(schedule.Id);
+            if (scheduleFind == null)
+            {
+                throw new NotImplementedException();
+                //return ("Not Found", $"Fitness machine with ID {id} not found.");
+            }
+
+            scheduleFind.month= schedule.month;
+            scheduleFind.day= schedule.day;
+            scheduleFind.BeginningTime= schedule.BeginningTime; 
+            scheduleFind.EndTime= schedule.EndTime; 
+            scheduleFind.year = schedule.year;
+
+
+            _context.Schedules.Update(scheduleFind);
+            return _context.SaveChanges() > 0;
+        }
     }
 }

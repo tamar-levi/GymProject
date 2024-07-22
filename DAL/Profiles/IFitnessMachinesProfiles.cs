@@ -25,6 +25,10 @@ namespace DAL.Profiles
             CreateMap<ScheduleDto, Schedules>();
             CreateMap<User, UserDto>();
             CreateMap<UserDto, User>();
+            CreateMap<ManagerDto, Manager>();
+            CreateMap<UserDto, User>();
+            CreateMap<Manager, ManagerDto>();    
+
 
         }
     }

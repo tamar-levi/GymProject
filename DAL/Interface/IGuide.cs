@@ -14,6 +14,7 @@ namespace DAL.Interface
         public void removeGuide(int id);
         public List<GuidDto> getAllGuides();
         public (string status, GuidDto afterMapper) getGuidesByName(string name);
+        public bool updateGuide(GuidDto guide);
 
 
     }

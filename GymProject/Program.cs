@@ -16,6 +16,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Text;
+using Microsoft.AspNetCore.Identity;
 
 namespace GymProject
 {
@@ -96,10 +97,17 @@ namespace GymProject
             builder.Services.AddScoped<IGuide, GuidData>();
             builder.Services.AddScoped<ISchedules, SchedulesData>();
             builder.Services.AddScoped<IUser, UsersData>();
+            builder.Services.AddScoped<IManager, ManagerData>();
+
             builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             var app = builder.Build();
 
-
+            // Seed the database with initial data
+            using (var scope = app.Services.CreateScope())
+            {
+                var services = scope.ServiceProvider;
+                // אין צורך ב-SeedData אם המשתמש יוצר את המנהל הראשון
+            }
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
             {
@@ -108,12 +116,12 @@ namespace GymProject
             }
 
             app.UseHttpsRedirection();
+
+            //חשוב הסדר של המידלוורים :
+            app.UseMiddleware<RequestTimingMiddleware>();
+            app.UseMiddleware<CustomAuthorizationMiddleware>();
             app.UseAuthentication();
             app.UseAuthorization();
-            app.UseMiddleware<BL.NameValidationMiddleware>();
-
-
-
             app.MapControllers();
 
             app.Run();

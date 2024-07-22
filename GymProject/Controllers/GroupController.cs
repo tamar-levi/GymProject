@@ -7,7 +7,8 @@ using System.Net;
 
 namespace GymProject.Controllers
 {
-    [Authorize]
+    [Authorize(Roles = "Admin")]
+
     [Route("api/[controller]")]
     [ApiController]
     public class GroupController : Controller

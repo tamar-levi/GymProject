@@ -107,6 +107,22 @@ namespace MODELS.Migrations
                     b.ToTable("Guides");
                 });
 
+            modelBuilder.Entity("MODELS.Models.Manager", b =>
+                {
+                    b.Property<int>("id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"), 1L, 1);
+
+                    b.Property<int>("userId")
+                        .HasColumnType("int");
+
+                    b.HasKey("id");
+
+                    b.ToTable("Managers");
+                });
+
             modelBuilder.Entity("MODELS.Models.Schedules", b =>
                 {
                     b.Property<int>("Id")

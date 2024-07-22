@@ -60,5 +60,24 @@ namespace DAL.Data
             _context.Guides.Remove(guide);
             _context.SaveChanges();
         }
+
+        public bool updateGuide(GuidDto guide)
+        {
+
+            var guideFind = _context.Guides.Find(guide.Id);
+            if (guideFind == null)
+            {
+                throw new NotImplementedException();
+                
+            }
+
+            guideFind.name = guide.name;
+            guideFind.mail = guide.mail;
+            guideFind.bankDetails = guide.bankDetails;
+          
+            _context.Guides.Update(guideFind);
+            return _context.SaveChanges() > 0;
+
+        }
     }
 }

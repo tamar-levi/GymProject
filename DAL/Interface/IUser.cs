@@ -15,8 +15,8 @@ namespace DAL.Interface
         public List<UserDto> getAllUsers();
         public (string status, UserDto afterMapper) getByMail(string mail);
 
+        public bool updateUser(UserDto user);
 
-           
 
 
 

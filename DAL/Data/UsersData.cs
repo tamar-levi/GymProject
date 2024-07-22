@@ -59,5 +59,29 @@ namespace DAL.Data
             }
             return ("Found", afterMapper);
         }
+
+        public bool updateUser(UserDto user)
+        {
+
+            var useFind = _context.Users.Find(user.Id);
+            if (useFind == null)
+            {
+                throw new NotImplementedException();
+              
+            }
+
+            useFind.mail = user.mail;
+            useFind.address = user.address;
+            useFind.password = user.password;
+            useFind.Name=user.Name;
+            
+
+
+            _context.Users.Update(useFind);
+            return _context.SaveChanges() > 0;
+
+
+
+        }
     }
 }
