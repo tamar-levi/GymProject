@@ -91,7 +91,7 @@ namespace GymProject
             builder.Services.AddControllersWithViews();
             builder.Services.AddDbContext<Context>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultDataBase")));
-            // builder.Services.AddDbContext<BooksContext>(op => op.UseSqlServer("Data Source=DESKTOP-UE6H0IP;Initial Catalog=Books;Integrated Security=SSPI;Trusted_Connection=True;"));
+            //add scope:
             builder.Services.AddScoped<IFitnessMachines, FitnessMachinesData>();
             builder.Services.AddScoped<IGroup, GroupData>();
             builder.Services.AddScoped<IGuide, GuidData>();
@@ -122,6 +122,7 @@ namespace GymProject
             app.UseMiddleware<CustomAuthorizationMiddleware>();
             app.UseAuthentication();
             app.UseAuthorization();
+
             app.MapControllers();
 
             app.Run();

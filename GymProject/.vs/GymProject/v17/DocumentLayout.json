@@ -7,12 +7,18 @@
       "RelativeMoniker": "D:0:0:{D2FE3825-1780-40D6-9865-64C681DB733C}|GymProject.csproj|solutionrelative:controllers\\aalogincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2FE3825-1780-40D6-9865-64C681DB733C}|GymProject.csproj|c:\\users\\pc\\downloads\\jm_ht9un7zzokqzdsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\gymproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D2FE3825-1780-40D6-9865-64C681DB733C}|GymProject.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D2FE3825-1780-40D6-9865-64C681DB733C}|GymProject.csproj|c:\\users\\pc\\downloads\\jm_ht9un7zzokqzdsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\gymproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2FE3825-1780-40D6-9865-64C681DB733C}|GymProject.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F6AC1EB-44AE-4415-896E-D7D50F1C242A}|..\\BL\\BL.csproj|c:\\users\\pc\\downloads\\jm_ht9un7zzokqzdsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\bl\\customauthorizationmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F6AC1EB-44AE-4415-896E-D7D50F1C242A}|..\\BL\\BL.csproj|c:\\users\\pc\\downloads\\jm_ht9un7zzokqzdsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\bl\\requesttimingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2FE3825-1780-40D6-9865-64C681DB733C}|GymProject.csproj|c:\\users\\pc\\downloads\\jm_ht9un7zzokqzdsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\gymproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D2FE3825-1780-40D6-9865-64C681DB733C}|GymProject.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2BFC7B4A-6424-4E65-805C-734CC1C081F6}|..\\DAL\\DAL.csproj|c:\\users\\pc\\downloads\\jm_ht9un7zzokqzdsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\dal\\data\\usersdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -79,9 +85,6 @@
       "RelativeMoniker": "D:0:0:{D2FE3825-1780-40D6-9865-64C681DB733C}|GymProject.csproj|solutionrelative:controllers\\groupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F6AC1EB-44AE-4415-896E-D7D50F1C242A}|..\\BL\\BL.csproj|c:\\users\\pc\\downloads\\jm_ht9un7zzokqzdsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\bl\\requesttimingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D2FE3825-1780-40D6-9865-64C681DB733C}|GymProject.csproj|c:\\users\\pc\\downloads\\jm_ht9un7zzokqzdsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\gymproject\\gymproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{D2FE3825-1780-40D6-9865-64C681DB733C}|GymProject.csproj|solutionrelative:gymproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
@@ -96,9 +99,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D2FE3825-1780-40D6-9865-64C681DB733C}|GymProject.csproj|c:\\users\\pc\\downloads\\jm_ht9un7zzokqzdsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\gymproject\\.editorconfig||{68B46364-D378-42F2-9E72-37D86C5F4468}",
       "RelativeMoniker": "D:0:0:{D2FE3825-1780-40D6-9865-64C681DB733C}|GymProject.csproj|solutionrelative:.editorconfig||{68B46364-D378-42F2-9E72-37D86C5F4468}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F6AC1EB-44AE-4415-896E-D7D50F1C242A}|..\\BL\\BL.csproj|c:\\users\\pc\\downloads\\jm_ht9un7zzokqzdsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\bl\\customauthorizationmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9F836D3A-F0FE-4FCC-8CB8-889E72216335}|..\\MODELS\\MODELS.csproj|c:\\users\\pc\\downloads\\jm_ht9un7zzokqzdsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\models\\models\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -184,19 +184,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\GymProject\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\GymProject\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAF4AAAAAAAAAAAAcwGkAAAA3AAAA",
+              "ToolTip": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\GymProject\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AQIAAF4AAAAAAAAAAAAQwGwAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-16T06:44:04.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomAuthorizationMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\BL\\CustomAuthorizationMiddleware.cs",
+              "RelativeDocumentMoniker": "..\\BL\\CustomAuthorizationMiddleware.cs",
+              "ToolTip": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\BL\\CustomAuthorizationMiddleware.cs*",
+              "RelativeToolTip": "..\\BL\\CustomAuthorizationMiddleware.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T18:38:35.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RequestTimingMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\BL\\RequestTimingMiddleware.cs",
+              "RelativeDocumentMoniker": "..\\BL\\RequestTimingMiddleware.cs",
+              "ToolTip": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\BL\\RequestTimingMiddleware.cs",
+              "RelativeToolTip": "..\\BL\\RequestTimingMiddleware.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBsAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T22:03:09.866Z",
               "EditorCaption": ""
             },
             {
@@ -207,7 +233,7 @@
               "RelativeDocumentMoniker": "Controllers\\AALoginController.cs",
               "ToolTip": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\GymProject\\Controllers\\AALoginController.cs",
               "RelativeToolTip": "Controllers\\AALoginController.cs",
-              "ViewState": "AQIAADUAAAAAAAAAAAAmwGIAAAAiAAAA",
+              "ViewState": "AQIAAHYAAAAAAAAAAAAuwHwAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-18T19:04:02.796Z",
               "EditorCaption": ""
@@ -215,32 +241,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "WeatherForecast.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\GymProject\\WeatherForecast.cs",
-              "RelativeDocumentMoniker": "WeatherForecast.cs",
-              "ToolTip": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\GymProject\\WeatherForecast.cs",
-              "RelativeToolTip": "WeatherForecast.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-16T06:44:05.107Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UsersData.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\DAL\\Data\\UsersData.cs",
-              "RelativeDocumentMoniker": "..\\DAL\\Data\\UsersData.cs",
-              "ToolTip": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\DAL\\Data\\UsersData.cs",
-              "RelativeToolTip": "..\\DAL\\Data\\UsersData.cs",
-              "ViewState": "AQIAADsAAAAAAAAAAAAcwEgAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-16T06:44:04.976Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\GymProject\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -254,6 +254,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "UsersData.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\DAL\\Data\\UsersData.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\Data\\UsersData.cs",
+              "ToolTip": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\DAL\\Data\\UsersData.cs",
+              "RelativeToolTip": "..\\DAL\\Data\\UsersData.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAcwEgAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T06:44:04.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\GymProject\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\GymProject\\WeatherForecast.cs",
+              "RelativeToolTip": "WeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T06:44:05.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "FitnessMachinesController.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\GymProject\\Controllers\\FitnessMachinesController.cs",
               "RelativeDocumentMoniker": "Controllers\\FitnessMachinesController.cs",
@@ -266,7 +292,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "GuidData.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\DAL\\Data\\GuidData.cs",
               "RelativeDocumentMoniker": "..\\DAL\\Data\\GuidData.cs",
@@ -279,7 +305,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "SchedulesData.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\DAL\\Data\\SchedulesData.cs",
               "RelativeDocumentMoniker": "..\\DAL\\Data\\SchedulesData.cs",
@@ -292,7 +318,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "ManagerData.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\DAL\\Data\\ManagerData.cs",
               "RelativeDocumentMoniker": "..\\DAL\\Data\\ManagerData.cs",
@@ -305,7 +331,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "GroupData.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\DAL\\Data\\GroupData.cs",
               "RelativeDocumentMoniker": "..\\DAL\\Data\\GroupData.cs",
@@ -318,7 +344,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "FitnessMachinesData.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\DAL\\Data\\FitnessMachinesData.cs",
               "RelativeDocumentMoniker": "..\\DAL\\Data\\FitnessMachinesData.cs",
@@ -331,7 +357,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "ManagerController.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\GymProject\\Controllers\\ManagerController.cs",
               "RelativeDocumentMoniker": "Controllers\\ManagerController.cs",
@@ -344,7 +370,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "SchedulesController.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\GymProject\\Controllers\\SchedulesController.cs",
               "RelativeDocumentMoniker": "Controllers\\SchedulesController.cs",
@@ -357,7 +383,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "GuideController.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\GymProject\\Controllers\\GuideController.cs",
               "RelativeDocumentMoniker": "Controllers\\GuideController.cs",
@@ -370,7 +396,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "IGuide.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\DAL\\Interface\\IGuide.cs",
               "RelativeDocumentMoniker": "..\\DAL\\Interface\\IGuide.cs",
@@ -383,7 +409,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "IGroup.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\DAL\\Interface\\IGroup.cs",
               "RelativeDocumentMoniker": "..\\DAL\\Interface\\IGroup.cs",
@@ -396,7 +422,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "ISchedules.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\DAL\\Interface\\ISchedules.cs",
               "RelativeDocumentMoniker": "..\\DAL\\Interface\\ISchedules.cs",
@@ -409,7 +435,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "IUser.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\DAL\\Interface\\IUser.cs",
               "RelativeDocumentMoniker": "..\\DAL\\Interface\\IUser.cs",
@@ -422,7 +448,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "IManager.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\DAL\\Interface\\IManager.cs",
               "RelativeDocumentMoniker": "..\\DAL\\Interface\\IManager.cs",
@@ -435,7 +461,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "IFitnessMachines.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\DAL\\Interface\\IFitnessMachines.cs",
               "RelativeDocumentMoniker": "..\\DAL\\Interface\\IFitnessMachines.cs",
@@ -448,7 +474,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\GymProject\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Controllers\\UserController.cs",
@@ -461,7 +487,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "GroupController.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\GymProject\\Controllers\\GroupController.cs",
               "RelativeDocumentMoniker": "Controllers\\GroupController.cs",
@@ -474,20 +500,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "RequestTimingMiddleware.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\BL\\RequestTimingMiddleware.cs",
-              "RelativeDocumentMoniker": "..\\BL\\RequestTimingMiddleware.cs",
-              "ToolTip": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\BL\\RequestTimingMiddleware.cs",
-              "RelativeToolTip": "..\\BL\\RequestTimingMiddleware.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T22:03:09.866Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "GymProject.csproj",
               "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\GymProject\\GymProject.csproj",
               "RelativeDocumentMoniker": "GymProject.csproj",
@@ -500,7 +513,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\GymProject\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -513,7 +526,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": ".editorconfig",
               "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\GymProject\\.editorconfig",
               "RelativeDocumentMoniker": ".editorconfig",
@@ -521,19 +534,6 @@
               "RelativeToolTip": ".editorconfig",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2024-07-21T23:51:36.045Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "CustomAuthorizationMiddleware.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\BL\\CustomAuthorizationMiddleware.cs",
-              "RelativeDocumentMoniker": "..\\BL\\CustomAuthorizationMiddleware.cs",
-              "ToolTip": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\BL\\CustomAuthorizationMiddleware.cs",
-              "RelativeToolTip": "..\\BL\\CustomAuthorizationMiddleware.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAgwBgAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-21T18:38:35.619Z",
               "EditorCaption": ""
             },
             {
@@ -551,7 +551,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "GymProject",
               "DocumentMoniker": "C:\\Users\\pc\\Downloads\\jm_hT9uN7ZzOkqzDsq\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05DB\u05D5\u05E9\u05E8\\GymProject\\GymProject.csproj",
               "RelativeDocumentMoniker": "GymProject.csproj",
