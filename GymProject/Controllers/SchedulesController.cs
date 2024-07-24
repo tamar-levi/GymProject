@@ -19,17 +19,13 @@ namespace GymProject.Controllers
             {
             _schedules = schedules;
             }
-        // GET: api/<BooksController>
         [HttpGet]
         public List<ScheduleDto> Get()
         {
-            // _user.getAllBooks();
             List<ScheduleDto> result = _schedules.getAllSchedules();
             return result;
-            //return Ok();
         }
 
-        // GET api/<BooksController>/5
         [HttpGet("GetByDate/{id}")]
             public IActionResult Get(DateTime date)
             {
@@ -41,7 +37,6 @@ namespace GymProject.Controllers
               return Ok(new { Status = status, Schedules = schedules });
             }
 
-        // POST api/<BooksController>
         [HttpPost]
         public ActionResult Post([FromBody] ScheduleDto schedules)
         {
@@ -50,16 +45,13 @@ namespace GymProject.Controllers
                 return Ok();
             return BadRequest();
         }
-        
 
-            // PUT api/<BooksController>/5
             [HttpPut]
             public void Put([FromBody] ScheduleDto schedule)
             {
             _schedules.updateSchedule(schedule);
             }
 
-            // DELETE api/<BooksController>/5
             [HttpDelete("{id}")]
             public void Delete(int id)
             {
