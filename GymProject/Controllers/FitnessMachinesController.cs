@@ -17,20 +17,18 @@ namespace GymProject.Controllers
         {
             _fitnessMachines = fitnessMachines;
         }
-        // GET: api/<BooksController>
+
       
         [HttpGet]
         public List<FitnesMachinesDto> Get()
         {
             List<FitnesMachinesDto> result=_fitnessMachines.getAllFitnessMachines();
             return result;
-            //return Ok();
         }
 
         [HttpGet("byAddress/{address}")]
         public IActionResult Get(string address)
         {
-            Console.WriteLine("נכנס");
             var (status, fitnessMachine) = _fitnessMachines.getFitnessMachinesByArea(address);
             if (fitnessMachine == null)
             {
@@ -38,7 +36,6 @@ namespace GymProject.Controllers
             }
             return Ok(new { Status = status, FitnessMachine = fitnessMachine });
         }
-        // POST api/<BooksController>
         [HttpPost]
         public ActionResult Post([FromBody] FitnesMachinesDto fitnessMachines)
         {
@@ -48,8 +45,6 @@ namespace GymProject.Controllers
                return Ok();
             return BadRequest();
         }
-
-        // PUT api/<BooksController>
         [HttpPut]
         public ActionResult Put([FromBody] FitnesMachinesDto fitnesMachinesDto)
         {
@@ -59,7 +54,6 @@ namespace GymProject.Controllers
             return BadRequest();
         }
 
-        // DELETE api/<BooksController>/5
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
