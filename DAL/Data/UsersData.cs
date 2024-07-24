@@ -35,7 +35,6 @@ namespace DAL.Data
             if (user == null)
             {
                 throw new NotImplementedException();
-                //return ("Not Found", $"Fitness machine with ID {id} not found.");
             }
 
             _context.Users.Remove(user);
