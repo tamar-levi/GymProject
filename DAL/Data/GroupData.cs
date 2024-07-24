@@ -34,13 +34,11 @@ namespace DAL.Data
             if (group == null)
             {
                 throw new NotImplementedException();
-                //return ("Not Found", $"Fitness machine with ID {id} not found.");
             }
             var user = _context.Users.Find(userId);
             if (user == null)
             {
                 throw new NotImplementedException();
-                //return ("Not Found", $"Fitness machine with ID {id} not found.");
             }
             if(group.users==null)
                 group.users = new List<User>();
@@ -73,7 +71,6 @@ namespace DAL.Data
             if (group == null)
             {
                 throw new NotImplementedException();
-                //return ("Not Found", $"Fitness machine with ID {id} not found.");
             }
 
             _context.Groups.Remove(group);
@@ -86,13 +83,11 @@ namespace DAL.Data
             if (group == null)
             {
                 throw new NotImplementedException();
-                //return ("Not Found", $"Fitness machine with ID {id} not found.");
             }
             var userId = group.users.FirstOrDefault(user);
             if (userId == null)
             {
                 throw new NotImplementedException();
-                //return ("Not Found", $"Fitness machine with ID {id} not found.");
             }
 
            group.users.Remove(userId);
@@ -108,7 +103,6 @@ namespace DAL.Data
             if (group == null)
             {
                 throw new NotImplementedException();
-                //return ("Not Found", $"Fitness machine with ID {id} not found.");
             }
 
             group.name = groupDto.name;
@@ -116,7 +110,6 @@ namespace DAL.Data
             group.endDate= groupDto.endDate;
             group.beginningDate= groupDto.beginningDate;
             group.name= groupDto.name;
-            //group.guidName.Id = groupDto.Id;
             _context.Groups.Update(group);
             _context.SaveChanges();
         }
