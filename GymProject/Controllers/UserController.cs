@@ -22,17 +22,14 @@ namespace GymProject.Controllers
         {
             _user = user;
         }
-        // GET: api/<BooksController>
       
         [HttpGet]
         public List<UserDto> Get()
         {
-            // _user.getAllBooks();
             List<UserDto> result = _user.getAllUsers();
             return result;
         }
 
-        // GET api/<BooksController>/5
         [HttpGet("GetById/{mail}")]
         public IActionResult Get(string mail)
         {
@@ -44,7 +41,6 @@ namespace GymProject.Controllers
             return Ok(new { Status = status, User = user });
         }
 
-        // POST api/<BooksController>
         [HttpPost]
         public ActionResult Post([FromBody] UserDto user)
         {
@@ -61,7 +57,6 @@ namespace GymProject.Controllers
             _user.updateUser(value);
         }
 
-        // DELETE api/<BooksController>/5
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
