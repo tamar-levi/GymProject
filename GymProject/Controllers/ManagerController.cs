@@ -31,11 +31,6 @@ namespace GymProject.Controllers
             List<ManagerDto> result = _manager.getAllManager();
             return result;
         }
-
-       
-   
-
-        // POST api/<BooksController>
         [HttpPost]
         public ActionResult Post([FromBody] ManagerDto manager)
         {
@@ -44,8 +39,6 @@ namespace GymProject.Controllers
                 return Ok();
             return BadRequest();
         }
-
- 
 
     }
 }
