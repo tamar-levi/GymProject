@@ -53,7 +53,6 @@ namespace DAL.Data
             if (schedules == null)
             {
                 throw new NotImplementedException();
-                //return ("Not Found", $"Fitness machine with ID {id} not found.");
             }
 
             _context.Schedules.Remove(schedules);
@@ -67,7 +66,6 @@ namespace DAL.Data
             if (scheduleFind == null)
             {
                 throw new NotImplementedException();
-                //return ("Not Found", $"Fitness machine with ID {id} not found.");
             }
 
             scheduleFind.month= schedule.month;
