@@ -54,7 +54,6 @@ namespace DAL.Data
             if (guide == null)
             {
                 throw new NotImplementedException();
-                //return ("Not Found", $"Fitness machine with ID {id} not found.");
             }
 
             _context.Guides.Remove(guide);
