@@ -61,12 +61,10 @@ namespace DAL.Data
             if (machine == null)
             {
                 throw new NotImplementedException();
-                //return ("Not Found", $"Fitness machine with ID {id} not found.");
             }
 
             _context.FitnessMachines.Remove(machine);
             _context.SaveChanges();
-            // return ("Success", $"Fitness machine with ID {id} was deleted successfully.");
         }
 
         //עידכון מכון כושר
@@ -77,7 +75,6 @@ namespace DAL.Data
             if (machine == null)
             {
                 throw new NotImplementedException();
-                //return ("Not Found", $"Fitness machine with ID {id} not found.");
             }
 
             machine.name = fitnessMachinesDto.name;
