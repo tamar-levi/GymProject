@@ -14,7 +14,6 @@ namespace DAL.DTO
     {
         public int Id { get; set; }
         public string name { get; set; }
-        [ForeignKey("Guide")]
         public int GuideId { get; set; }
         public typeGroup typeGroup { get; set; }
         public virtual ICollection<int> idUsers { get; set; }
