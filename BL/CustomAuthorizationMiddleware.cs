@@ -12,10 +12,7 @@ public class CustomAuthorizationMiddleware
 
     public async Task InvokeAsync(HttpContext context)
     {
-       
-        // Allow the request to pass through the pipeline
         await _next(context);
-        // After the request has been processed by the next middleware/component
         if (context.Response.StatusCode == (int)HttpStatusCode.Forbidden)
         {
           
