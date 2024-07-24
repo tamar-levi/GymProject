@@ -57,7 +57,6 @@ namespace GymProject.Controllers
         [HttpPost]
         public IActionResult Post([FromBody] Login loginRequest)
         {
-            // בדיקת סיסמא של משתמש
             var userFind = _user.getByMail(loginRequest.mail);
 
             
@@ -65,7 +64,6 @@ namespace GymProject.Controllers
             {
                 return BadRequest("User not found");
             }
-            //בדיקת מנהל
             var ManagerFind = _manager.getAllManager().FirstOrDefault(x => x.userId == userFind.afterMapper.Id);
            
             if (userFind.afterMapper.password == loginRequest.password)
@@ -79,7 +77,7 @@ namespace GymProject.Controllers
                  var claims = new[]
                  {
                    new Claim(JwtRegisteredClaimNames.Sub, loginRequest.mail),
-                   new Claim("role", role) // תפקיד מנהל
+                   new Claim("role", role) // ֳ÷ֳ´ֳ·ֳ©ֳ£ ֳ®ֳ°ֳ₪ֳ¬
                  };
                 var Sectoken = new JwtSecurityToken(_config["Jwt:Issuer"],
                   _config["Jwt:Issuer"],
@@ -99,13 +97,11 @@ namespace GymProject.Controllers
         [HttpPost("add new manager for first visit")]
         public IActionResult Register([FromBody] Register registerRequest)
         {
-            // בדיקה אם יש כבר מנהלים במערכת
             if (_manager.getAllManager().Count() > 0)
             {
                 return BadRequest("Admin already exists");
             }
 
-            // יצירת משתמש חדש
             UserDto newUser = new UserDto
             {
                 mail = registerRequest.mail,
@@ -118,7 +114,6 @@ namespace GymProject.Controllers
 
             _user.createUser(newUser);
 
-            // יצירת מנהל חדש
             var newManager = new ManagerDto
             {
                 userId = newUser.Id,
