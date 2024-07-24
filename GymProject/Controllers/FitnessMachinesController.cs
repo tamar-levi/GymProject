@@ -27,13 +27,6 @@ namespace GymProject.Controllers
             //return Ok();
         }
 
-        // GET api/<BooksController>
-        //[HttpGet("{id}")]
-        //public string Get(int id)
-        //{
-            
-        //    return "value";
-        //}
         [HttpGet("byAddress/{address}")]
         public IActionResult Get(string address)
         {

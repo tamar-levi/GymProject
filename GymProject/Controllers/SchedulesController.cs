@@ -53,9 +53,10 @@ namespace GymProject.Controllers
         
 
             // PUT api/<BooksController>/5
-            [HttpPut("{id}")]
-            public void Put(int id, [FromBody] string value)
+            [HttpPut]
+            public void Put([FromBody] ScheduleDto schedule)
             {
+            _schedules.updateSchedule(schedule);
             }
 
             // DELETE api/<BooksController>/5

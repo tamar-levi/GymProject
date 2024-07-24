@@ -49,9 +49,10 @@ namespace GymProject.Controllers
         }
 
         // PUT api/<BooksController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        [HttpPut]
+        public void Put( [FromBody] GuidDto value)
         {
+            _guide.updateGuide(value);
         }
 
         // DELETE api/<BooksController>/5

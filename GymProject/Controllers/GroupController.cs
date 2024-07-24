@@ -50,9 +50,9 @@ namespace GymProject.Controllers
         }
 
         [HttpPost("/addUser{id}")]
-        public void Post([FromBody] User user, int id)
+        public void Post( int userId, int id)
         {
-            _group.addUserToGroup(user, id);
+            _group.addUserToGroup(userId, id);
         }
 
         // PUT api/<BooksController>/5

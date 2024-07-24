@@ -28,7 +28,7 @@ namespace DAL.Data
             return isOk;
         }
 
-        public void addUserToGroup(User user,int groupId)
+        public void addUserToGroup(int userId,int groupId)
         {
             var group = _context.Groups.Find(groupId);
             if (group == null)
@@ -36,6 +36,15 @@ namespace DAL.Data
                 throw new NotImplementedException();
                 //return ("Not Found", $"Fitness machine with ID {id} not found.");
             }
+            var user = _context.Users.Find(userId);
+            if (user == null)
+            {
+                throw new NotImplementedException();
+                //return ("Not Found", $"Fitness machine with ID {id} not found.");
+            }
+            if(group.users==null)
+                group.users = new List<User>();
+
             group.users.Add(user);
 
             _context.SaveChanges();

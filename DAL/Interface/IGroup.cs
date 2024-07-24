@@ -15,7 +15,7 @@ namespace DAL.Interface
         public (string status, GroupDto afterMapper) getGroupById(int id);
 
         public List<GroupDto> getAllGroups();
-        public void addUserToGroup(User userId,int groupId);
+        public void addUserToGroup(int userId,int groupId);
         public void removeUserFromGroup(User user,int id);
 
         public void updateGroup(GroupDto groupDto);
