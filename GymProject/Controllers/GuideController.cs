@@ -17,16 +17,13 @@ namespace GymProject.Controllers
         {
             _guide = guide;
         }
-        // GET: api/<BooksController>
         [HttpGet]
         public List<GuidDto> Get()
         {
-            // _user.getAllBooks();
             List<GuidDto> result = _guide.getAllGuides();
             return result;
         }
 
-        // GET api/<BooksController>/5
         [HttpGet("getByName/{name}")]
         public IActionResult Get(string name)
         {
@@ -37,8 +34,6 @@ namespace GymProject.Controllers
             }
             return Ok(new { Status = status, GuideName = guideName });
         }
-
-        // POST api/<BooksController>
         [HttpPost]
         public ActionResult Post([FromBody] GuidDto guide)
         {
@@ -48,14 +43,12 @@ namespace GymProject.Controllers
             return BadRequest();
         }
 
-        // PUT api/<BooksController>/5
         [HttpPut]
         public void Put( [FromBody] GuidDto value)
         {
             _guide.updateGuide(value);
         }
 
-        // DELETE api/<BooksController>/5
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
