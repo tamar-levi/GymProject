@@ -18,7 +18,6 @@ namespace GymProject.Controllers
         {
             _group = group;
         }
-        // GET: api/<BooksController>
         [HttpGet]
         public List<GroupDto> Get()
         {
@@ -26,7 +25,6 @@ namespace GymProject.Controllers
             return result;
         }
 
-        // GET api/<BooksController>/5
         [HttpGet("{id}")]
         public IActionResult Get(int id)
         {
@@ -38,11 +36,9 @@ namespace GymProject.Controllers
             return Ok(new { Status = status, group = group });
         }
 
-        // POST api/<BooksController>
         [HttpPost]
         public ActionResult Post([FromBody] GroupDto group)
         {
-            Console.WriteLine("נכנסת?????????");
             var res = _group.addGroup(group);
             if (res)
                 return Ok();
@@ -55,14 +51,11 @@ namespace GymProject.Controllers
             _group.addUserToGroup(userId, id);
         }
 
-        // PUT api/<BooksController>/5
         [HttpPut]
         public void Put(GroupDto group)
         {
             _group.updateGroup(group);
         }
-
-        //DELETE api/<BooksController>/5
         [HttpDelete]
         public void Delete(int id)
         {
