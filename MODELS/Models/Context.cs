@@ -5,18 +5,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-//using MODELS.Models;
-//using System;
-//using System.Collections.Generic;
-//using System.Linq;
-//using System.Reflection.Emit;
-//using System.Text;
-//using System.Threading.Tasks;
-//using Microsoft.EntityFrameworkCore;
-//using MODELS.Models;
-//using Microsoft.EntityFrameworkCore;
-
-
 namespace MODELS.Models
 {
     public class Context : DbContext
