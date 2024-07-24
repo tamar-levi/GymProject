@@ -10,7 +10,7 @@ namespace MODELS.Models
 {
     public class Manager
     {
-        [Key] // האטריביוט Key מציין שהמאפיין הוא מפתח ראשי
+        [Key] 
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int id { get; set; }
         public int userId { get; set; }

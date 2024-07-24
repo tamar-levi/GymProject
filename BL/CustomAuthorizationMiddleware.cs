@@ -3,6 +3,7 @@ using System.Net;
 
 public class CustomAuthorizationMiddleware
 {
+    //Middleware of manger permission
     private readonly RequestDelegate _next;
 
     public CustomAuthorizationMiddleware(RequestDelegate next)
@@ -16,6 +17,7 @@ public class CustomAuthorizationMiddleware
         // Allow the request to pass through the pipeline
         await _next(context);
         // After the request has been processed by the next middleware/component
+        //check if the error is problem of manager permission 
         if (context.Response.StatusCode == (int)HttpStatusCode.Forbidden)
         {
           

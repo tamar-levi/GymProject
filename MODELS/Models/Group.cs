@@ -12,10 +12,11 @@ namespace MODELS.Models
     public class Group
     {
         //ID רץ
-        [Key] // האטריביוט Key מציין שהמאפיין הוא מפתח ראשי
+        [Key] 
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
         public string name { get; set; }
+        //ForeignKey
         [ForeignKey("Guide")]
         public int GuideId { get; set; }
         public typeGroup typeGroup { get; set; }

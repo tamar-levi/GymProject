@@ -2,38 +2,31 @@
 using DAL.Interface;
 using MODELS.Models;
 using AutoMapper;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Reflection.PortableExecutable;
+
 
 namespace DAL.Data
 {
 
     public class FitnessMachinesData : IFitnessMachines
     {
-
         private readonly Context _context;
         private readonly IMapper _mapper;
-        //אתחול ההזרקה
+        //The injection initialization
         public FitnessMachinesData(Context context, IMapper mapper)
         {
             _context = context;
             _mapper = mapper;
         }
-        //הוספת חדר כושר
+        //Adding a gym
         public bool addFitnessMachines(FitnesMachinesDto fitnessMachines)
         {
             var myFitnessMachines = _mapper.Map<FitnessMachines>(fitnessMachines);
             _context.FitnessMachines.Add(myFitnessMachines);
             var isOk = _context.SaveChanges() >= 0;
-
             return isOk;
         }
 
-        //מחזירה את כל רשימת המכונות כושר
+        //Returns the entire list of fitness machines
         public List<FitnesMachinesDto> getAllFitnessMachines()
         {
             var myFitnessMachines = _context.FitnessMachines.ToList();
@@ -41,10 +34,9 @@ namespace DAL.Data
             return myFitnessMachineDto;
         }
 
-        //מחזירה את רשימת המכונות לפי אזור
+        //Returns the list of machines by region
         public (string status, FitnesMachinesDto afterMapper) getFitnessMachinesByArea(string address)
         {
-
             var areaFind = _context.FitnessMachines.FirstOrDefault(b => b.address == address);
             var afterMapper = _mapper.Map<FitnesMachinesDto>(areaFind);
             if (afterMapper == null)
@@ -54,22 +46,22 @@ namespace DAL.Data
             return ("Found", afterMapper);
         }
 
-        //מוחק מכון כושר לפי id
+        //Deletes a gym by id
         public void removeFitnessMachines(int id)
         {
             var machine = _context.FitnessMachines.Find(id);
             if (machine == null)
             {
                 throw new NotImplementedException();
-                //return ("Not Found", $"Fitness machine with ID {id} not found.");
+               
             }
 
             _context.FitnessMachines.Remove(machine);
             _context.SaveChanges();
-            // return ("Success", $"Fitness machine with ID {id} was deleted successfully.");
+            
         }
 
-        //עידכון מכון כושר
+        //Gym update
         public bool updateFitnessMachines(FitnesMachinesDto fitnessMachinesDto)
         {
 
@@ -77,7 +69,7 @@ namespace DAL.Data
             if (machine == null)
             {
                 throw new NotImplementedException();
-                //return ("Not Found", $"Fitness machine with ID {id} not found.");
+                
             }
 
             machine.name = fitnessMachinesDto.name;

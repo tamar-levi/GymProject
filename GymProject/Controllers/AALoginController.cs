@@ -8,6 +8,7 @@ using MODELS.Models;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
+
 public struct Login
 {
     public string mail { get; set; }
@@ -19,6 +20,7 @@ public struct Login
         password = Password;
     }
 }
+
 public struct Register
 {
     public string mail { get; set; }
@@ -26,26 +28,24 @@ public struct Register
     public string name { get; set; }
     public string address { get; set; }
 
-    public Register(string Mail, string Password,string Name,string Address)
+    public Register(string Mail, string Password, string Name, string Address)
     {
         mail = Mail;
         password = Password;
-        name= Name; 
-        address = Address;  
+        name = Name;
+        address = Address;
     }
 }
+
 namespace GymProject.Controllers
 {
-
     [Route("api/[controller]")]
     [ApiController]
     public class AALoginController : Controller
     {
-
         private IConfiguration _config;
         private readonly IUser _user;
         private readonly IManager _manager;
-
 
         public AALoginController(IConfiguration config, IUser user, IManager manager)
         {
@@ -57,17 +57,17 @@ namespace GymProject.Controllers
         [HttpPost]
         public IActionResult Post([FromBody] Login loginRequest)
         {
-            // בדיקת סיסמא של משתמש
+            // Checking user password
             var userFind = _user.getByMail(loginRequest.mail);
 
-            
             if (userFind.afterMapper == null)
             {
                 return BadRequest("User not found");
             }
-            //בדיקת מנהל
+
+            // Checking for manager
             var ManagerFind = _manager.getAllManager().FirstOrDefault(x => x.userId == userFind.afterMapper.Id);
-           
+
             if (userFind.afterMapper.password == loginRequest.password)
             {
                 var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"]));
@@ -76,16 +76,17 @@ namespace GymProject.Controllers
                 if (ManagerFind != null)
                     role = "Admin";
 
-                 var claims = new[]
-                 {
-                   new Claim(JwtRegisteredClaimNames.Sub, loginRequest.mail),
-                   new Claim("role", role) // תפקיד מנהל
-                 };
+                var claims = new[]
+                {
+                    new Claim(JwtRegisteredClaimNames.Sub, loginRequest.mail),
+                    new Claim("role", role) // Admin role
+                };
+
                 var Sectoken = new JwtSecurityToken(_config["Jwt:Issuer"],
-                  _config["Jwt:Issuer"],
-                  claims,
-                  expires: DateTime.Now.AddMinutes(120),
-                  signingCredentials: credentials);
+                    _config["Jwt:Issuer"],
+                    claims,
+                    expires: DateTime.Now.AddMinutes(120),
+                    signingCredentials: credentials);
 
                 var token = new JwtSecurityTokenHandler().WriteToken(Sectoken);
 
@@ -96,44 +97,36 @@ namespace GymProject.Controllers
                 return BadRequest("Invalid password");
             }
         }
+
         [HttpPost("add new manager for first visit")]
         public IActionResult Register([FromBody] Register registerRequest)
         {
-            // בדיקה אם יש כבר מנהלים במערכת
+            // Checking if there are already managers in the system
             if (_manager.getAllManager().Count() > 0)
             {
                 return BadRequest("Admin already exists");
             }
 
-            // יצירת משתמש חדש
+            // Creating a new user
             UserDto newUser = new UserDto
             {
                 mail = registerRequest.mail,
                 password = registerRequest.password,
-                address=registerRequest.address,
-                Name=registerRequest.name
-
-                
+                address = registerRequest.address,
+                Name = registerRequest.name
             };
 
             _user.createUser(newUser);
 
-            // יצירת מנהל חדש
+            // Creating a new manager
             var newManager = new ManagerDto
             {
-                userId = newUser.Id,
-            
+                userId = newUser.Id
             };
 
             _manager.addManager(newManager);
 
             return Ok("Admin registered successfully");
         }
-
     }
 }
-
-
-
-
-

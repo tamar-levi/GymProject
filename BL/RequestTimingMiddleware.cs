@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 
 public class RequestTimingMiddleware
 {
+    //Middleware of print to log the details of request
     private readonly RequestDelegate _next;
     private readonly ILogger<RequestTimingMiddleware> _logger;
 
@@ -14,6 +15,7 @@ public class RequestTimingMiddleware
         _logger = logger;
     }
 
+    //print the details
     public async Task Invoke(HttpContext context)
     {
         var stopwatch = Stopwatch.StartNew();

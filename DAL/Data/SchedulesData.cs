@@ -2,12 +2,6 @@
 using DAL.DTO;
 using DAL.Interface;
 using MODELS.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DAL.Data
 {
@@ -15,7 +9,8 @@ namespace DAL.Data
     {
         private readonly Context _context;
         private readonly IMapper _mapper;
-        //אתחול ההזרקה
+
+        //The injection initialization
         public SchedulesData(Context context, IMapper mapper)
         {
             _context = context;
@@ -53,7 +48,7 @@ namespace DAL.Data
             if (schedules == null)
             {
                 throw new NotImplementedException();
-                //return ("Not Found", $"Fitness machine with ID {id} not found.");
+                
             }
 
             _context.Schedules.Remove(schedules);
@@ -67,7 +62,6 @@ namespace DAL.Data
             if (scheduleFind == null)
             {
                 throw new NotImplementedException();
-                //return ("Not Found", $"Fitness machine with ID {id} not found.");
             }
 
             scheduleFind.month= schedule.month;

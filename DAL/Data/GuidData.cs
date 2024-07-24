@@ -1,14 +1,8 @@
 ﻿using AutoMapper;
 using DAL.DTO;
 using DAL.Interface;
-using Microsoft.EntityFrameworkCore;
 using MODELS.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace DAL.Data
 {
@@ -54,7 +48,6 @@ namespace DAL.Data
             if (guide == null)
             {
                 throw new NotImplementedException();
-                //return ("Not Found", $"Fitness machine with ID {id} not found.");
             }
 
             _context.Guides.Remove(guide);

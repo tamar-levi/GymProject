@@ -9,9 +9,6 @@ namespace DAL.DTO
     public class ScheduleDto
     {
         public int Id { get; set; }
-        //prymari key
-
-
         public int idGroup { get; set; }
 
         public int year { get; set; }

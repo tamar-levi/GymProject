@@ -13,35 +13,28 @@ namespace GymProject.Controllers
     [ApiController]
     public class SchedulesController : Controller
     {
-        
-            private readonly ISchedules _schedules;
-            public SchedulesController(ISchedules schedules)
-            {
+
+        private readonly ISchedules _schedules;
+        public SchedulesController(ISchedules schedules)
+        {
             _schedules = schedules;
-            }
-        // GET: api/<BooksController>
+        }
         [HttpGet]
         public List<ScheduleDto> Get()
         {
-            // _user.getAllBooks();
             List<ScheduleDto> result = _schedules.getAllSchedules();
             return result;
-            //return Ok();
         }
-
-        // GET api/<BooksController>/5
         [HttpGet("GetByDate/{id}")]
-            public IActionResult Get(DateTime date)
+        public IActionResult Get(DateTime date)
+        {
+            var (status, schedules) = _schedules.getSchedulesByDate(date);
+            if (schedules == null)
             {
-              var (status, schedules) = _schedules.getSchedulesByDate(date);
-              if (schedules == null)
-              {
-                 return NotFound(status);
-              }
-              return Ok(new { Status = status, Schedules = schedules });
+                return NotFound(status);
             }
-
-        // POST api/<BooksController>
+            return Ok(new { Status = status, Schedules = schedules });
+        }
         [HttpPost]
         public ActionResult Post([FromBody] ScheduleDto schedules)
         {
@@ -50,21 +43,17 @@ namespace GymProject.Controllers
                 return Ok();
             return BadRequest();
         }
-        
+        [HttpPut]
+        public void Put([FromBody] ScheduleDto schedule)
+        {
+            _schedules.updateSchedule(schedule);
+        }
 
-            // PUT api/<BooksController>/5
-            [HttpPut("{id}")]
-            public void Put(int id, [FromBody] string value)
-            {
-            }
+        [HttpDelete("{id}")]
+        public void Delete(int id)
+        {
+            _schedules.removeSchedules(id);
+        }
 
-            // DELETE api/<BooksController>/5
-            [HttpDelete("{id}")]
-            public void Delete(int id)
-            {
-              _schedules.removeSchedules(id);
-            }
-
-        
     }
 }

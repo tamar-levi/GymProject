@@ -21,10 +21,7 @@ namespace MODELS.Models
 {
     public class Context : DbContext
     {
-        public Context()
-        {
-
-        }
+        public Context() { }
         public Context(DbContextOptions<Context> options) : base(options) { }
         public virtual DbSet<FitnessMachines> FitnessMachines { get; set; }
         public virtual DbSet<Group> Groups { get; set; }

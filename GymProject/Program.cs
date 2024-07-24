@@ -1,7 +1,6 @@
 using DAL.Interface;
 using DAL.Data;
 using AutoMapper;
-//using AutoMapper.Extensions.Microsoft.DependencyInjection;
 using DAL.DTO;
 using DAL.Profiles;
 using Microsoft.AspNetCore.Localization;
@@ -106,7 +105,7 @@ namespace GymProject
             using (var scope = app.Services.CreateScope())
             {
                 var services = scope.ServiceProvider;
-                // אין צורך ב-SeedData אם המשתמש יוצר את המנהל הראשון
+                // SeedData is not needed if the user is creating the first manager
             }
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
@@ -117,7 +116,6 @@ namespace GymProject
 
             app.UseHttpsRedirection();
 
-            //חשוב הסדר של המידלוורים :
             app.UseMiddleware<RequestTimingMiddleware>();
             app.UseMiddleware<CustomAuthorizationMiddleware>();
             app.UseAuthentication();

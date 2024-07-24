@@ -11,10 +11,10 @@ namespace MODELS.Models
     public class Schedules
     {
         //id רץ
-        [Key] // האטריביוט Key מציין שהמאפיין הוא מפתח ראשי
+        [Key] 
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
-        //prymari key
+       
         public int idGroup { get; set; }
         public int year { get; set; }
         public int month { get; set; }

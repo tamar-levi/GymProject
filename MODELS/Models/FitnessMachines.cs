@@ -11,7 +11,7 @@ namespace MODELS.Models
     public class FitnessMachines
     {
         //id רץ
-        [Key] // האטריביוט Key מציין שהמאפיין הוא מפתח ראשי
+        [Key] 
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
         public string name { get; set; }

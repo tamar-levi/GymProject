@@ -18,3 +18,22 @@ C:\Users\pc\Downloads\jm_hT9uN7ZzOkqzDsq\פרויקט כושר\BL\bin\Release\ne
 C:\Users\pc\Downloads\jm_hT9uN7ZzOkqzDsq\פרויקט כושר\BL\bin\Release\net6.0\DAL.pdb
 C:\Users\pc\Downloads\jm_hT9uN7ZzOkqzDsq\פרויקט כושר\BL\bin\Release\net6.0\MODELS.pdb
 C:\Users\pc\Downloads\jm_hT9uN7ZzOkqzDsq\פרויקט כושר\BL\obj\Release\net6.0\BL.csproj.Up2Date
+C:\Users\1\Desktop\GymeProject\GymProject\BL\bin\Release\net6.0\BL.deps.json
+C:\Users\1\Desktop\GymeProject\GymProject\BL\bin\Release\net6.0\BL.runtimeconfig.json
+C:\Users\1\Desktop\GymeProject\GymProject\BL\bin\Release\net6.0\BL.dll
+C:\Users\1\Desktop\GymeProject\GymProject\BL\bin\Release\net6.0\BL.pdb
+C:\Users\1\Desktop\GymeProject\GymProject\BL\bin\Release\net6.0\DAL.dll
+C:\Users\1\Desktop\GymeProject\GymProject\BL\bin\Release\net6.0\MODELS.dll
+C:\Users\1\Desktop\GymeProject\GymProject\BL\bin\Release\net6.0\DAL.pdb
+C:\Users\1\Desktop\GymeProject\GymProject\BL\bin\Release\net6.0\MODELS.pdb
+C:\Users\1\Desktop\GymeProject\GymProject\BL\obj\Release\net6.0\BL.csproj.AssemblyReference.cache
+C:\Users\1\Desktop\GymeProject\GymProject\BL\obj\Release\net6.0\BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1\Desktop\GymeProject\GymProject\BL\obj\Release\net6.0\BL.AssemblyInfoInputs.cache
+C:\Users\1\Desktop\GymeProject\GymProject\BL\obj\Release\net6.0\BL.AssemblyInfo.cs
+C:\Users\1\Desktop\GymeProject\GymProject\BL\obj\Release\net6.0\BL.csproj.CoreCompileInputs.cache
+C:\Users\1\Desktop\GymeProject\GymProject\BL\obj\Release\net6.0\BL.csproj.CopyComplete
+C:\Users\1\Desktop\GymeProject\GymProject\BL\obj\Release\net6.0\BL.dll
+C:\Users\1\Desktop\GymeProject\GymProject\BL\obj\Release\net6.0\refint\BL.dll
+C:\Users\1\Desktop\GymeProject\GymProject\BL\obj\Release\net6.0\BL.pdb
+C:\Users\1\Desktop\GymeProject\GymProject\BL\obj\Release\net6.0\BL.genruntimeconfig.cache
+C:\Users\1\Desktop\GymeProject\GymProject\BL\obj\Release\net6.0\ref\BL.dll

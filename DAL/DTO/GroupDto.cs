@@ -12,10 +12,9 @@ namespace DAL.DTO
 {
     public class GroupDto
     {
-        //[Key] 
-        //[DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
         public string name { get; set; }
+
         [ForeignKey("Guide")]
         public int GuideId { get; set; }
         public typeGroup typeGroup { get; set; }
@@ -23,7 +22,6 @@ namespace DAL.DTO
         public string beginningDate { get; set; }
         public string endDate { get; set; }
         public int idFitnessMachines { get; set; }
-        //[ForeignKey("Guide")]
         public int managerId { get; set; }
 
     }

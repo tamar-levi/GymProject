@@ -2,11 +2,6 @@
 using DAL.DTO;
 using DAL.Interface;
 using MODELS.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DAL.Data
 {
@@ -14,7 +9,7 @@ namespace DAL.Data
     {
         private readonly Context _context;
         private readonly IMapper _mapper;
-        //אתחול ההזרקה
+        //The injection initialization
         public ManagerData(Context context, IMapper mapper)
         {
             _context = context;
