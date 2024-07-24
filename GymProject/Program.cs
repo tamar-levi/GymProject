@@ -106,7 +106,6 @@ namespace GymProject
             using (var scope = app.Services.CreateScope())
             {
                 var services = scope.ServiceProvider;
-                // אין צורך ב-SeedData אם המשתמש יוצר את המנהל הראשון
             }
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
@@ -117,7 +116,6 @@ namespace GymProject
 
             app.UseHttpsRedirection();
 
-            //חשוב הסדר של המידלוורים :
             app.UseMiddleware<RequestTimingMiddleware>();
             app.UseMiddleware<CustomAuthorizationMiddleware>();
             app.UseAuthentication();
