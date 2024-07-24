@@ -1,0 +1,43 @@
+C:\Users\1\Desktop\פרויקט כושר\MODELS\bin\Release\net6.0\MODELS.deps.json
+C:\Users\1\Desktop\פרויקט כושר\MODELS\bin\Release\net6.0\MODELS.runtimeconfig.json
+C:\Users\1\Desktop\פרויקט כושר\MODELS\bin\Release\net6.0\MODELS.dll
+C:\Users\1\Desktop\פרויקט כושר\MODELS\bin\Release\net6.0\MODELS.pdb
+C:\Users\1\Desktop\פרויקט כושר\MODELS\obj\Release\net6.0\MODELS.csproj.AssemblyReference.cache
+C:\Users\1\Desktop\פרויקט כושר\MODELS\obj\Release\net6.0\MODELS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1\Desktop\פרויקט כושר\MODELS\obj\Release\net6.0\MODELS.AssemblyInfoInputs.cache
+C:\Users\1\Desktop\פרויקט כושר\MODELS\obj\Release\net6.0\MODELS.AssemblyInfo.cs
+C:\Users\1\Desktop\פרויקט כושר\MODELS\obj\Release\net6.0\MODELS.csproj.CoreCompileInputs.cache
+C:\Users\1\Desktop\פרויקט כושר\MODELS\obj\Release\net6.0\MODELS.dll
+C:\Users\1\Desktop\פרויקט כושר\MODELS\obj\Release\net6.0\refint\MODELS.dll
+C:\Users\1\Desktop\פרויקט כושר\MODELS\obj\Release\net6.0\MODELS.pdb
+C:\Users\1\Desktop\פרויקט כושר\MODELS\obj\Release\net6.0\MODELS.genruntimeconfig.cache
+C:\Users\1\Desktop\פרויקט כושר\MODELS\obj\Release\net6.0\ref\MODELS.dll
+C:\Users\pc\Downloads\jm_hT9uN7ZzOkqzDsq\פרויקט כושר\MODELS\bin\Release\net6.0\MODELS.deps.json
+C:\Users\pc\Downloads\jm_hT9uN7ZzOkqzDsq\פרויקט כושר\MODELS\bin\Release\net6.0\MODELS.runtimeconfig.json
+C:\Users\pc\Downloads\jm_hT9uN7ZzOkqzDsq\פרויקט כושר\MODELS\bin\Release\net6.0\MODELS.dll
+C:\Users\pc\Downloads\jm_hT9uN7ZzOkqzDsq\פרויקט כושר\MODELS\bin\Release\net6.0\MODELS.pdb
+C:\Users\pc\Downloads\jm_hT9uN7ZzOkqzDsq\פרויקט כושר\MODELS\obj\Release\net6.0\MODELS.csproj.AssemblyReference.cache
+C:\Users\pc\Downloads\jm_hT9uN7ZzOkqzDsq\פרויקט כושר\MODELS\obj\Release\net6.0\MODELS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pc\Downloads\jm_hT9uN7ZzOkqzDsq\פרויקט כושר\MODELS\obj\Release\net6.0\MODELS.AssemblyInfoInputs.cache
+C:\Users\pc\Downloads\jm_hT9uN7ZzOkqzDsq\פרויקט כושר\MODELS\obj\Release\net6.0\MODELS.AssemblyInfo.cs
+C:\Users\pc\Downloads\jm_hT9uN7ZzOkqzDsq\פרויקט כושר\MODELS\obj\Release\net6.0\MODELS.csproj.CoreCompileInputs.cache
+C:\Users\pc\Downloads\jm_hT9uN7ZzOkqzDsq\פרויקט כושר\MODELS\obj\Release\net6.0\MODELS.sourcelink.json
+C:\Users\pc\Downloads\jm_hT9uN7ZzOkqzDsq\פרויקט כושר\MODELS\obj\Release\net6.0\MODELS.dll
+C:\Users\pc\Downloads\jm_hT9uN7ZzOkqzDsq\פרויקט כושר\MODELS\obj\Release\net6.0\refint\MODELS.dll
+C:\Users\pc\Downloads\jm_hT9uN7ZzOkqzDsq\פרויקט כושר\MODELS\obj\Release\net6.0\MODELS.pdb
+C:\Users\pc\Downloads\jm_hT9uN7ZzOkqzDsq\פרויקט כושר\MODELS\obj\Release\net6.0\MODELS.genruntimeconfig.cache
+C:\Users\pc\Downloads\jm_hT9uN7ZzOkqzDsq\פרויקט כושר\MODELS\obj\Release\net6.0\ref\MODELS.dll
+C:\Users\1\Desktop\GymeProject\GymProject\MODELS\bin\Release\net6.0\MODELS.deps.json
+C:\Users\1\Desktop\GymeProject\GymProject\MODELS\bin\Release\net6.0\MODELS.runtimeconfig.json
+C:\Users\1\Desktop\GymeProject\GymProject\MODELS\bin\Release\net6.0\MODELS.dll
+C:\Users\1\Desktop\GymeProject\GymProject\MODELS\bin\Release\net6.0\MODELS.pdb
+C:\Users\1\Desktop\GymeProject\GymProject\MODELS\obj\Release\net6.0\MODELS.csproj.AssemblyReference.cache
+C:\Users\1\Desktop\GymeProject\GymProject\MODELS\obj\Release\net6.0\MODELS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1\Desktop\GymeProject\GymProject\MODELS\obj\Release\net6.0\MODELS.AssemblyInfoInputs.cache
+C:\Users\1\Desktop\GymeProject\GymProject\MODELS\obj\Release\net6.0\MODELS.AssemblyInfo.cs
+C:\Users\1\Desktop\GymeProject\GymProject\MODELS\obj\Release\net6.0\MODELS.csproj.CoreCompileInputs.cache
+C:\Users\1\Desktop\GymeProject\GymProject\MODELS\obj\Release\net6.0\MODELS.dll
+C:\Users\1\Desktop\GymeProject\GymProject\MODELS\obj\Release\net6.0\refint\MODELS.dll
+C:\Users\1\Desktop\GymeProject\GymProject\MODELS\obj\Release\net6.0\MODELS.pdb
+C:\Users\1\Desktop\GymeProject\GymProject\MODELS\obj\Release\net6.0\MODELS.genruntimeconfig.cache
+C:\Users\1\Desktop\GymeProject\GymProject\MODELS\obj\Release\net6.0\ref\MODELS.dll
